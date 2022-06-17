@@ -2,9 +2,38 @@ MLI project  Head Pose Estimation
 ==============================
 
 machcine learning 1 project
+Head Pose Estimation Using Landmarks
+------------
+The main objective of this task is to find the relative orientation (and position) of the human’s head with respect to the camera. In particular, in the head pose estimation task, it is common to predict relative orientation with Euler angles – yaw, pitch and roll. They define the object’s rotation in a 3D environment
+
+![alt text](https://indatalabs.com/wp-content/uploads/2021/01/2d-3d-head-pose-estimation.jpg)
+
+
+How it works
+------------
+- Face detection. A face detector is introduced to provide a face landmarkes  containing a human face.
+- Facial landmark detection. A pre-trained model take the face image as input and output 936 facial landmarks.
+- These  landmarkes used as input to our model 
+- The out put of model is yaw, pitch and roll
+
+MediaPipe
+------------
+
+MediaPipe offers ready-to-use yet customizable Python solutions as a prebuilt Python package.
+
+![alt text](https://github.com/google/mediapipe/blob/master/docs/images/mediapipe_small.png?raw=true)
+
+
+To Sum Up
+------------
+
+Head pose estimation  is vital for vision-based application development. Face recognition apps, video surveillance systems, AI fitness and therapy apps – all of them more or less utilize head pose estimation algorithms.
+
 
 Project Organization
 ------------
+
+==============================
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`

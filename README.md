@@ -29,6 +29,12 @@ To Sum Up
 
 Head pose estimation  is vital for vision-based application development. Face recognition apps, video surveillance systems, AI fitness and therapy apps – all of them more or less utilize head pose estimation algorithms.
 
+<!-- [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/meanjs/mean?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+ -->
+Data
+------------
+https://paperswithcode.com/sota/head-pose-estimation-on-aflw2000
+
 
 Project Organization
 ------------

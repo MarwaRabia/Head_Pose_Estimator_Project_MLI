@@ -1,4 +1,4 @@
-MLI project
+MLI project  Head Pose Estimation
 ==============================
 
 machcine learning 1 project
@@ -55,3 +55,6 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+
